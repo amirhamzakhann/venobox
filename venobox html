@@ -1,0 +1,22 @@
+//First Veno Box Add Html File//
+
+//Css File Link Start//
+<link rel="stylesheet" href="css/venobox.min.css">
+//Css File Link End//
+
+
+//Js File Link Start//
+<script src="js/venobox.min.js"></script>
+//Js File Link End//
+
+//Custom page Add This Js
+ $('.venobox').venobox(); 
+ 
+ //Html For Video
+ <a class="venobox" data-autoplay="true" data-vbtype="video" href="http://vimeo.com/xxx">Vimeo</a>
+<a class="venobox" data-autoplay="true" data-vbtype="video" href="http://youtu.be/xxx">Youtube</a>
+ //Html Video End
+ 
+ //Html For Image
+ <a class="venobox" data-gall="gallery01" href="image01-big.jpg"><img src="image01-small.jpg"></a>
+ //Html Image End
